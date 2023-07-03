@@ -4,21 +4,21 @@ import HelloWorld from './components/HelloWorld.vue'
 </script>
 
 <template>
-  <header>
-    <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
+<div class="flex">
+    <div class="flex-col  m-5 ">
+        <nav class="flex flex-col border-2 border-black rounded m-5 p-3 ">
+            <RouterLink to="/">Home</RouterLink>
+            <RouterLink to="/about">About</RouterLink>
+            <RouterLink to="/gallery">Gallery</RouterLink>
+        </nav>
 
-    <div class="wrapper">
-      <HelloWorld msg="You did it!" />
-
-      <nav>
-        <RouterLink to="/">Home</RouterLink>
-          <RouterLink to="/about">About</RouterLink>
-        <RouterLink to="/gallery">Gallery</RouterLink>
-      </nav>
     </div>
-  </header>
 
-  <RouterView />
+
+        <div class="flex-col">
+            <RouterView/>
+        </div>
+</div>
 </template>
 
 <style scoped>
