@@ -1,10 +1,13 @@
 <script setup lang="ts">
+import Hero from "@/components/Hero.vue";
+
 defineProps<{
   msg: string
 }>()
 </script>
 
 <template>
+    <Hero></Hero>
   <div class="greetings">
     <h1 class="green">{{ msg }}</h1>
     <h3>
