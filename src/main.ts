@@ -8,8 +8,7 @@ import { faPhone } from "@fortawesome/free-solid-svg-icons";
 import {  faStackOverflow, faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 
 library.add(faPhone);
-library.add(faStackOverflow);
-library.add(faLinkedin, faGithub);
+library.add(faStackOverflow, faLinkedin, faGithub);
 import App from './App.vue'
 import router from './router'
 
