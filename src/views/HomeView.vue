@@ -4,8 +4,13 @@ import Footer from "@/components/Footer.vue";
 </script>
 
 <template>
-  <main>
-    <Hero />
-      <Footer></Footer>
+    <div class="container border-2 mt-5 ">
+
+    <main>
+    <Hero></Hero>
+
   </main>
+        <Footer></Footer>
+    </div>
+
 </template>

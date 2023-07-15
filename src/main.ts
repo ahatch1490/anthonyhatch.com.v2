@@ -5,10 +5,10 @@ import { createPinia } from 'pinia'
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 import { faPhone } from "@fortawesome/free-solid-svg-icons";
-import {  faStackOverflow, faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
+import {  faStackOverflow, faLinkedin, faGithub, faVuejs } from "@fortawesome/free-brands-svg-icons";
 
 library.add(faPhone);
-library.add(faStackOverflow, faLinkedin, faGithub);
+library.add(faStackOverflow, faLinkedin, faGithub, faVuejs);
 import App from './App.vue'
 import router from './router'
 
